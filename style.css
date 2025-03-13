@@ -21,6 +21,9 @@ body {
 img {
   max-width: 100%;
 }
+h5 {
+  color: white;
+}
 
 .row button:hover {
   background-color: gray;
@@ -202,7 +205,11 @@ img {
 .detail {
   display: flex;
   justify-content: space-between;
-  color: gray;
+  color: white;
+}
+.detail,
+h5 {
+  color: white;
 }
 .swiper p {
   text-align: center;
